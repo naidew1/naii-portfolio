@@ -1,6 +1,3 @@
-import staticImage from "@/constants/staticImage";
-import Image from "next/image";
-
 export default function HighlightProject() {
   return (
     <section
@@ -15,19 +12,6 @@ export default function HighlightProject() {
           20 jul 2024
         </p>
       </div>
-
-      <figure className="mt-4 w-full rounded-md bg-[#999999] p-2">
-        <Image
-          src={staticImage.highlightProject}
-          style={{
-            maxWidth: "100%",
-            height: "100%",
-            width: "100%",
-            display: "block",
-          }}
-          alt="highlight-project-img"
-        />
-      </figure>
     </section>
   );
 }
