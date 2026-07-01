@@ -1,26 +1,9 @@
+import Link from "next/link";
+
 export default function SocialMedia() {
   return (
     <div className="mt-6 flex gap-4">
-      {/* <figure className="block w-6 text-primary-default">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="block max-w-full"
-          viewBox="0 0 24 24"
-        >
-          <g
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="1.5"
-            color="currentColor"
-          >
-            <path d="M2.5 12c0-4.478 0-6.718 1.391-8.109S7.521 2.5 12 2.5c4.478 0 6.718 0 8.109 1.391S21.5 7.521 21.5 12c0 4.478 0 6.718-1.391 8.109S16.479 21.5 12 21.5c-4.478 0-6.718 0-8.109-1.391S2.5 16.479 2.5 12" />
-            <path d="M16.5 12a4.5 4.5 0 1 1-9 0a4.5 4.5 0 0 1 9 0m1.008-5.5h-.01" />
-          </g>
-        </svg>
-      </figure> */}
-
+      <Link href="https://github.com/naidew1">
           <figure className="text-primary-default hover:text-primary-default/60 block w-6 cursor-pointer" title="github profile">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -36,41 +19,7 @@ export default function SocialMedia() {
               </g>
             </svg>
           </figure>
-
-      {/* <figure className="block w-6 text-primary-default">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="block max-w-full"
-          viewBox="0 0 48 48"
-        >
-          <g
-            fill="none"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="4"
-          >
-            <path d="M44 24a19.94 19.94 0 0 1-5.889 14.173A19.94 19.94 0 0 1 24 44C12.954 44 4 35.046 4 24a19.93 19.93 0 0 1 5.5-13.775A19.94 19.94 0 0 1 24 4a19.94 19.94 0 0 1 14.111 5.827A19.94 19.94 0 0 1 44 24" />
-            <path d="M44 24c-2.918 0-10.968-1.1-18.173 2.063C18 29.5 12.333 34.832 9.863 38.147" />
-            <path d="M16.5 5.454C19.63 8.343 26.46 15.698 29 23s3.48 16.28 4.06 18.835" />
-            <path d="M4.154 21.5c3.778.228 13.779.433 20.179-2.3s11.907-7.76 13.796-9.355M5.5 31.613a20.08 20.08 0 0 0 9 9.991" />
-            <path d="M4 24a19.93 19.93 0 0 1 5.5-13.775M24 4a19.94 19.94 0 0 0-14.5 6.225M32 5.664a20 20 0 0 1 6.111 4.163A19.94 19.94 0 0 1 44 24c0 2.462-.445 4.821-1.26 7M24 44a19.94 19.94 0 0 0 14.111-5.827" />
-          </g>
-        </svg>
-      </figure>
-
-      <figure className="block w-6 text-primary-default">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="bloc max-w-full"
-          viewBox="0 0 16 16"
-        >
-          <path
-            fill="currentColor"
-            d="M9.294 6.928L14.357 1h-1.2L8.762 6.147L5.25 1H1.2l5.31 7.784L1.2 15h1.2l4.642-5.436L10.751 15h4.05zM7.651 8.852l-.538-.775L2.832 1.91h1.843l3.454 4.977l.538.775l4.491 6.47h-1.843z"
-          />
-        </svg>
-      </figure> */}
+      </Link>
     </div>
   );
 }
