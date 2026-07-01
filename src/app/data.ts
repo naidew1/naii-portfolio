@@ -2,7 +2,7 @@ import { ServicesType, WorkExperienceType, WorkflowHighlightItem } from "./types
 import staticImage from "@/constants/staticImage";
 import { Globe, Search, Layout, Cpu, CheckCircle } from "lucide-react"
 
-
+// yang ini itu nanti akan muncul di ""
 export const services: ServicesType[] = [
   {
     name: "Pentesting",
@@ -57,15 +57,14 @@ export const workExperience: WorkExperienceType[] = [
   {
     company: "PUMA INFORMATICS",
     position: "Technopreneur",
-    date: "2025 - present",
+    date: "2024 - 2025",
   },
   {
-    company: "Oil Cycle",
+    company: "Oil Cycle Economic Survival Project",
     position: "Head Of EO",
     date: "2025",
   },
 ];
-
 export const projects = [
   {
     img: staticImage.avatar2,
