@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧩 Personal Portfolio
 
-## Getting Started
+> A modern, responsive personal portfolio built with a **Bento Grid** layout concept. Clean, minimal, and interactive.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=flat-square&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-black?style=flat-square&logo=shadcnui&logoColor=white)
+
+---
+
+## ✨ Features
+
+- 🧱 **Bento Grid Layout** modern mosaic style card layout for showcasing content
+- 📱 **Mobile Responsive** fully optimized across all screen sizes
+- 🎨 **shadcn/ui Components** consistent and accessible UI components
+- ⚡ **Next.js App Router** fast, server side rendering out of the box
+- 🔒 **TypeScript** fully typed for better DX and maintainability
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|---|---|
+| [Next.js 15](https://nextjs.org) | React framework with App Router |
+| [TypeScript](https://www.typescriptlang.org) | Typed JavaScript |
+| [Tailwind CSS](https://tailwindcss.com) | Utility-first CSS framework |
+| [shadcn/ui](https://ui.shadcn.com) | Reusable component library |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Make sure you have the following installed:
+- Node.js `>= 18`
+- npm / yarn / pnpm / bun
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/your-portfolio.git
+
+# Navigate to the project directory
+cd your-portfolio
+
+# Install dependencies
+npm install
+```
+
+### Running Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📸 Preview
 
-## Learn More
+<img width="1912" height="997" alt="Screenshot 2026-07-01 082413" src="https://github.com/user-attachments/assets/b03947ba-2f95-4815-b5ac-4ff93f67f9e5" />
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Live Demo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> 🔗 [naii-portfolio.vercel.app](https://naii-portfolio.vercel.app/)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📄 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<p align="center">Made with ❤️ by <a href="https://github.com/naidew1">Naii</a></p>
