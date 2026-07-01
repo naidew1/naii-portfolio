@@ -1,5 +1,4 @@
 import Footer from "@/components/layouts/Footer";
-import HighlightProject from "@/components/layouts/HighlightProject";
 import ProfileAbout from "@/components/layouts/ProfileAbout";
 import ProfileHeader from "@/components/layouts/ProfileHeader";
 import Projects from "@/components/layouts/Projects";
