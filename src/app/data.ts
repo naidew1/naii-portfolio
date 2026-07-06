@@ -2,7 +2,6 @@ import { ServicesType, WorkExperienceType, WorkflowHighlightItem } from "./types
 import staticImage from "@/constants/staticImage";
 import { Globe, Search, Layout, Cpu, CheckCircle } from "lucide-react"
 
-// yang ini itu nanti akan muncul di ""
 export const services: ServicesType[] = [
   {
     name: "Pentesting",
@@ -55,16 +54,25 @@ export const WorkflowHighlightItems: WorkflowHighlightItem[] = [
 
 export const workExperience: WorkExperienceType[] = [
   {
-    company: "PUMA INFORMATICS",
-    position: "Technopreneur",
-    date: "2024 - 2025",
-  },
-  {
     company: "Oil Cycle Economic Survival Project",
     position: "Head Of EO",
     date: "2025",
   },
+  {
+    company: "PUMA INFORMATICS",
+    position: "Technopreneur",
+    date: "2024 - 2025",
+  },
 ];
+
+export const educations = [
+  {
+    title: "Undergraduate Student",
+    from: 'President University',
+    years: '2024 - present'
+  }
+]
+
 export const projects = [
   {
     img: staticImage.avatar2,
@@ -87,10 +95,4 @@ export const projects = [
     backgroundColor: "bg-[#838AAD]",
     link: "https://drive.google.com/file/d/1aGXTgd1IQfoggSeYpfNFSeo8BAT2ieGH/view?usp=sharing"
   },
-  // {
-  //   img: staticImage.projectTree,
-  //   title: "Myprogress",
-  //   desc: "focuses on compiling and sharing the educational materials I've learned, using Instagram as a platform to document and present key insights, resources, and personal reflections from various topics I’ve studied",
-  //   backgroundColor: "bg-[#EEE4DC]",
-  // },
 ];
