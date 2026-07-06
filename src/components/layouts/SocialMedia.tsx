@@ -3,7 +3,10 @@ import Link from "next/link";
 export default function SocialMedia() {
   return (
     <div className="mt-6 flex gap-4">
-      <Link href="mailto:nailha.dewi@student.president.ac.id?subject=Web%20Development%20Project%20Inquiry&body=Hi%20there,%0A%0AI%20would%20like%20to%20discuss%20a%20new%20web%20development%20project%20with%20you.%20Here%20are%20some%20initial%20details:%0A%0A-%20Project/Company%20Name:%20%0A-%20Type%20of%20Website%20(E-commerce/Portfolio/Dashboard/etc):%20%0A-%20Key%20Features%20Needed:%20%0A-%20Estimated%20Timeline/Deadline:%20%0A%0ALooking%20forward%20to%20your%20response.%0A%0ABest%20regards,">
+      <Link
+        href="mailto:nailha.dewi@student.president.ac.id?subject=Web%20Development%20Project%20Inquiry&body=Hi%20there,%0A%0AI%20would%20like%20to%20discuss%20a%20new%20web%20development%20project%20with%20you.%20Here%20are%20some%20initial%20details:%0A%0A-%20Project/Company%20Name:%20%0A-%20Type%20of%20Website%20(E-commerce/Portfolio/Dashboard/etc):%20%0A-%20Key%20Features%20Needed:%20%0A-%20Estimated%20Timeline/Deadline:%20%0A%0ALooking%20forward%20to%20your%20response.%0A%0ABest%20regards,"
+        target="_blank"
+      >
         <figure
           className="text-primary-default hover:text-primary-default/60 block w-6 cursor-pointer"
           title="send message"
@@ -23,7 +26,7 @@ export default function SocialMedia() {
           </svg>
         </figure>
       </Link>
-      <Link href="https://github.com/naidew1">
+      <Link href="https://github.com/naidew1" target="_blank">
         <figure
           className="text-primary-default hover:text-primary-default/60 block w-6 cursor-pointer"
           title="github profile"
