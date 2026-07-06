@@ -6,10 +6,11 @@ export default function WorkflowHighlight() {
       id="highlight-project"
       className="mt-6 w-full rounded-md bg-card-dark pt-6 pb-2 px-2 sm:mt-0"
     >
-      <div className="flex w-full items-center justify-between">
+      <div className="flex gap-1.5 flex-col w-full ">
         <h5 className="text-xl font-semibold text-typography-dark">
           Workflow Highlights
         </h5>
+        <p className="text-typography-light text-sm leading-loose">How I move a UI/UX product from a raw idea to a shipped, polished design five steps, in order.</p>
       </div>
 
 
