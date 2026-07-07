@@ -2,6 +2,7 @@
 
 import { projects } from "@/app/data";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ProjectCard() {
   return (
@@ -27,9 +28,9 @@ export default function ProjectCard() {
           />
         </figure>
         <div className="project-titles w-full">
-          <a href={project.link} className="text-lg font-semibold text-typography-dark underline cursor-pointer hover:text-typography-dark/60" title="go-to-preview">
+          <Link target="_blank" href={project.link} className="text-lg font-semibold text-typography-dark underline cursor-pointer hover:text-typography-dark/60" title="go-to-preview">
             {project.title}
-          </a>
+          </Link>
           <p className="cut__text mt-1 text-sm leading-loose text-typography-light">
             {project.desc}
           </p>
