@@ -62,8 +62,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ---
 
 ## 📸 Preview
-
-<img width="1912" height="997" alt="Screenshot 2026-07-01 082413" src="https://github.com/user-attachments/assets/b03947ba-2f95-4815-b5ac-4ff93f67f9e5" />
+<img width="2511" height="1447" alt="Screenshot 2026-07-10 090108" src="https://github.com/user-attachments/assets/c4e0cbe2-c13f-4113-a44e-a64bab47ce6f" />
 
 ---
 
